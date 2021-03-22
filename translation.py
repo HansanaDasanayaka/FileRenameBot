@@ -26,19 +26,19 @@ class Translation(object):
     REPLY_TO_DOC_FOR_C2A = "<b> Please Reply To An File/Video With /c2a To Convert It Into Audio File</b>"
     CUSTOM_CAPTION_UL_FILE = " "
     NO_THUMB_FOUND = "😕 No Thumbnail Found!"
-    FORMAT_SELECTION = """<b>Choose appropriate option</b> <a href='{}'>⬇️</a>
-🎞  - Stream format
-📁  - File format
-<i>NOTE : Taking high resolutions may result in files above 2GB and hence cannot Upload to TG. So better select a medium resolution.</i> 😇
+    FORMAT_SELECTION = """<b>Choose Appropriate Option</b> <a href='{}'>⬇️</a>
+🎞  - Stream Format
+📁  - File Format
+<i>NOTE : Taking High Resolutions May Result In Files Above 2GB And High Cannot Upload to TG. So Better Select a Medium Resolution.</i> 😇
 """
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
-    ABOUT_ME = """<b>Meh : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n i can also convert files into videos \n Feedback @No_OnE_Kn0wS_Me If You Found Meh Useful</b>"""
+    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> Added to {} till {}."
+    IFLONG_FILE_NAME = """Please Decrease The Number Of Letters 🥺"""
+    ABOUT_ME = """<b>Me : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n I Can Also Convert Files Into Videos \n Send Your Feedback ➤ @HansanaDasanayaka If You Found Me Useful!</b>"""
     HELP_USER = """Ohh You Want Help?? 😅
     
-1.🔹 <b>Send me any Telegram File.</b> \n
-2.🔹 <b>Reply to that message with /rename New file name.extnsion</b> \n
+1.🔹 <b>Send Me Any Telegram File.</b> \n
+2.🔹 <b>Reply to That Message With /rename New File-Name.extension</b> \n
 3.🔹 <b> Send A Photo to make it as permanent Thumbnail</b> \n
-4.🔹 <b> I Can Also Convert Files Into Video through /c2v Command </b>   \n
-5.🔹 <b> Send Me Any Zee5 Url And I'll Upload It Into Telegram </b> \n \n <b>Made With Love By: @MaI_BoTs </b>"""
+4.🔹 <b> I Can Also Convert Files Into Video Through /c2v Command </b>   \n
+5.🔹 <b> Send Me Any Zee5 Url And I'll Upload It Into Telegram </b> \n \n <b>Made With ❤️ By: @Easy_Bots </b>"""
 
