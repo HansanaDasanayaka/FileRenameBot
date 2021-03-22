@@ -82,11 +82,11 @@ async def zee5_capture(bot, update):
                     
             logger.info(url)
         except:
-            await update.reply_text("There's some issue with your URL ", quote=True)
+            await update.reply_text("☹️ There's Some Issue With Your URL", quote=True)
             return
             
     else:
-        await update.reply_text("I can download from Zee5 links only! Use any url uploader for other links 😇", quote=True)
+        await update.reply_text("► I Can Download From Zee5 Links Only!😐 Use Any Other URL Uploader For Other Links 😇", quote=True)
         return
     
     try:
@@ -187,11 +187,11 @@ async def zee5_capture(bot, update):
                 reply_to_message_id=update.message_id
             )
         else:
-            await update.reply_text("There's some issue with your URL 😕 Or may be DRM protected!", quote=True)
+            await update.reply_text("There's Some Issue With Your URL 😕 Or May Be DRM Protected!", quote=True)
             return
     except:
-        await update.reply_text("Couldn't download your video!", quote=True)
-        logger.info('format send error')
+        await update.reply_text("Couldn't Download Your Video!", quote=True)
+        logger.info('Format Send Error')
         return
              
 async def zee5_execute(bot, update):
@@ -288,7 +288,7 @@ async def zee5_execute(bot, update):
             e_response = stderr.decode().strip()
             t_response = stdout.decode().strip()
 
-        ad_string_to_replace = "please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output."
+        ad_string_to_replace = "Please Report This Sssue On https://yt-dl.org/bug . Make Sure You Are Using The Latest Version; See  https://yt-dl.org/update  On How To Update. Be Sure To Call Youtube-dl With the --verbose Flag And Include Its Complete Output."
         if e_response and ad_string_to_replace in e_response:
             error_message = e_response.replace(ad_string_to_replace, "")
             await bot.edit_message_text(
@@ -409,7 +409,7 @@ async def zee5_execute(bot, update):
                         )
                     )
                 else:
-                    logger.info("Did this happen? :\\")
+                    logger.info("Did This Happen? :\\")
 
                 try:
                     shutil.rmtree(tmp_directory_for_each_user)
@@ -422,11 +422,11 @@ async def zee5_execute(bot, update):
 
                 await bot.edit_message_text(
                     text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Channel", url="https://t.me/Mai_bOTs")]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Channel", url="https://t.me/Easy_Bots")]]),
                     chat_id=update.message.chat.id,
                     message_id=update.message.message_id,
                     disable_web_page_preview=True
                 )               
     except:
-        await update.reply_text("Couldn't download your video!", quote=True)
+        await update.reply_text("☹️ Couldn't Download Your Video!", quote=True)
         logger.info('error in process') 
